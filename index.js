@@ -71,9 +71,8 @@ class PrinterJr {
 
 var printerJrDeluxe = new PrinterJr();
 printerJrDeluxe.print("socks");
+printerJrDeluxe.print(1);
 
 var printerDeluxeSr = new PrinterJr(["ID: WOWOWOWOW Item: Socks Description: Soft socks that are super soft and you should wear them or you just don\'t have good taste in socks. I mean come on it has little designs on them and they\'re super cool. All your friends would be so jealous if they saw you wearing these socks. Buy these socks please. Please buy these socks, they are such good socks. They are the best socks I've ever seen. Price: $100", "ID: WOWOWOWOW Item: Socks Description: Soft socks that are super soft and you should wear them or you just don\'t have good taste in socks. I mean come on it has little designs on them and they\'re super cool. All your friends would be so jealous if they saw you wearing these socks. Buy these socks please. Please buy these socks, they are such good socks. They are the best socks I've ever seen. Price: $100"], 824);
 printerDeluxeSr.print("socks");
 
-var printerDeluxeSrSr = new PrinterJr();
-printerDeluxeSrSr.print(1)
